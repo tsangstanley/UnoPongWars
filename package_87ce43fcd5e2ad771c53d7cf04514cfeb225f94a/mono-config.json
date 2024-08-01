@@ -1,0 +1,663 @@
+{
+  "assemblyRootFolder": "managed",
+  "debugLevel": 0,
+  "runtimeOptions": [
+    "--no-jiterpreter-traces-enabled",
+    "--no-jiterpreter-interp-entry-enabled",
+    "--no-jiterpreter-jit-call-enabled"
+  ],
+  "remoteSources": [
+    "managed/"
+  ],
+  "globalizationMode": "all",
+  "assets": [
+    {
+      "name": "UnoPongWars.clr",
+      "virtualPath": "UnoPongWars.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Private.CoreLib.clr",
+      "virtualPath": "System.Private.CoreLib.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Private.Uri.clr",
+      "virtualPath": "System.Private.Uri.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.Runtime.WebAssembly.clr",
+      "virtualPath": "Uno.UI.Runtime.WebAssembly.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.clr",
+      "virtualPath": "Uno.UI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Foundation.clr",
+      "virtualPath": "Uno.Foundation.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Text.RegularExpressions.clr",
+      "virtualPath": "System.Text.RegularExpressions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Collections.Concurrent.clr",
+      "virtualPath": "System.Collections.Concurrent.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Memory.clr",
+      "virtualPath": "System.Memory.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Collections.clr",
+      "virtualPath": "System.Collections.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Linq.clr",
+      "virtualPath": "System.Linq.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Collections.Immutable.clr",
+      "virtualPath": "System.Collections.Immutable.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.ObjectModel.clr",
+      "virtualPath": "System.ObjectModel.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.ComponentModel.TypeConverter.clr",
+      "virtualPath": "System.ComponentModel.TypeConverter.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Net.Security.clr",
+      "virtualPath": "System.Net.Security.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Security.Cryptography.clr",
+      "virtualPath": "System.Security.Cryptography.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Net.Primitives.clr",
+      "virtualPath": "System.Net.Primitives.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Collections.NonGeneric.clr",
+      "virtualPath": "System.Collections.NonGeneric.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Drawing.Primitives.clr",
+      "virtualPath": "System.Drawing.Primitives.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.ComponentModel.Primitives.clr",
+      "virtualPath": "System.ComponentModel.Primitives.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.ComponentModel.clr",
+      "virtualPath": "System.ComponentModel.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Collections.Specialized.clr",
+      "virtualPath": "System.Collections.Specialized.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Private.Xml.Linq.clr",
+      "virtualPath": "System.Private.Xml.Linq.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Private.Xml.clr",
+      "virtualPath": "System.Private.Xml.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Net.Http.clr",
+      "virtualPath": "System.Net.Http.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Diagnostics.DiagnosticSource.clr",
+      "virtualPath": "System.Diagnostics.DiagnosticSource.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Runtime.InteropServices.JavaScript.clr",
+      "virtualPath": "System.Runtime.InteropServices.JavaScript.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Linq.Expressions.clr",
+      "virtualPath": "System.Linq.Expressions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Foundation.Logging.clr",
+      "virtualPath": "Uno.Foundation.Logging.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Foundation.Runtime.WebAssembly.clr",
+      "virtualPath": "Uno.Foundation.Runtime.WebAssembly.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Diagnostics.Eventing.clr",
+      "virtualPath": "Uno.Diagnostics.Eventing.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Console.clr",
+      "virtualPath": "System.Console.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.clr",
+      "virtualPath": "Uno.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.Dispatching.clr",
+      "virtualPath": "Uno.UI.Dispatching.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Text.Json.clr",
+      "virtualPath": "System.Text.Json.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Text.Encodings.Web.clr",
+      "virtualPath": "System.Text.Encodings.Web.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Web.HttpUtility.clr",
+      "virtualPath": "System.Web.HttpUtility.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.Composition.clr",
+      "virtualPath": "Uno.UI.Composition.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.IO.FileSystem.Watcher.clr",
+      "virtualPath": "System.IO.FileSystem.Watcher.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.Abstractions.clr",
+      "virtualPath": "Microsoft.Extensions.Hosting.Abstractions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions.clr",
+      "virtualPath": "Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Abstractions.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.Abstractions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Primitives.clr",
+      "virtualPath": "Microsoft.Extensions.Primitives.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Abstractions.clr",
+      "virtualPath": "Microsoft.Extensions.Logging.Abstractions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.clr",
+      "virtualPath": "Microsoft.Extensions.Options.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Abstractions.clr",
+      "virtualPath": "Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Navigation.clr",
+      "virtualPath": "Uno.Extensions.Navigation.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Core.clr",
+      "virtualPath": "Uno.Extensions.Core.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Localization.Abstractions.clr",
+      "virtualPath": "Microsoft.Extensions.Localization.Abstractions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Markup.clr",
+      "virtualPath": "Uno.Extensions.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.Toolkit.clr",
+      "virtualPath": "Uno.UI.Toolkit.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Configuration.clr",
+      "virtualPath": "Uno.Extensions.Configuration.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Hosting.clr",
+      "virtualPath": "Uno.Extensions.Hosting.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.FileExtensions.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Physical.clr",
+      "virtualPath": "Microsoft.Extensions.FileProviders.Physical.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.FileSystemGlobbing.clr",
+      "virtualPath": "Microsoft.Extensions.FileSystemGlobbing.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Storage.clr",
+      "virtualPath": "Uno.Extensions.Storage.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Serialization.clr",
+      "virtualPath": "Uno.Extensions.Serialization.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Binder.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.Binder.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Json.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.Json.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions.clr",
+      "virtualPath": "Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Hosting.WinUI.clr",
+      "virtualPath": "Uno.Extensions.Hosting.WinUI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.clr",
+      "virtualPath": "Microsoft.Extensions.Hosting.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.clr",
+      "virtualPath": "Microsoft.Extensions.DependencyInjection.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.clr",
+      "virtualPath": "Microsoft.Extensions.Logging.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.EnvironmentVariables.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.CommandLine.clr",
+      "virtualPath": "Microsoft.Extensions.Configuration.CommandLine.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Configuration.clr",
+      "virtualPath": "Microsoft.Extensions.Logging.Configuration.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Storage.UI.clr",
+      "virtualPath": "Uno.Extensions.Storage.UI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Core.Extensions.Collections.clr",
+      "virtualPath": "Uno.Core.Extensions.Collections.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Core.Extensions.Disposables.clr",
+      "virtualPath": "Uno.Core.Extensions.Disposables.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Core.UI.clr",
+      "virtualPath": "Uno.Extensions.Core.UI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Reactive.clr",
+      "virtualPath": "Uno.Extensions.Reactive.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Toolkit.clr",
+      "virtualPath": "Uno.Toolkit.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "System.Linq.Async.clr",
+      "virtualPath": "System.Linq.Async.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Toolkit.WinUI.clr",
+      "virtualPath": "Uno.Toolkit.WinUI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Core.Extensions.Logging.clr",
+      "virtualPath": "Uno.Core.Extensions.Logging.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Core.Extensions.Logging.Singleton.clr",
+      "virtualPath": "Uno.Core.Extensions.Logging.Singleton.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "CommonServiceLocator.clr",
+      "virtualPath": "CommonServiceLocator.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "SkiaSharp.Views.Windows.clr",
+      "virtualPath": "SkiaSharp.Views.Windows.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "SkiaSharp.clr",
+      "virtualPath": "SkiaSharp.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Reactive.UI.clr",
+      "virtualPath": "Uno.Extensions.Reactive.UI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Navigation.Toolkit.UI.clr",
+      "virtualPath": "Uno.Extensions.Navigation.Toolkit.UI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Navigation.UI.clr",
+      "virtualPath": "Uno.Extensions.Navigation.UI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Core.Extensions.clr",
+      "virtualPath": "Uno.Core.Extensions.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Material.WinUI.clr",
+      "virtualPath": "Uno.Material.WinUI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Themes.WinUI.clr",
+      "virtualPath": "Uno.Themes.WinUI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.Lottie.clr",
+      "virtualPath": "Uno.UI.Lottie.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Logging.WinUI.clr",
+      "virtualPath": "Uno.Extensions.Logging.WinUI.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.Adapter.Microsoft.Extensions.Logging.clr",
+      "virtualPath": "Uno.UI.Adapter.Microsoft.Extensions.Logging.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Logging.WebAssembly.Console.clr",
+      "virtualPath": "Uno.Extensions.Logging.WebAssembly.Console.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Navigation.WinUI.Markup.clr",
+      "virtualPath": "Uno.Extensions.Navigation.WinUI.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.WinUI.Markup.clr",
+      "virtualPath": "Uno.WinUI.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Extensions.Reactive.WinUI.Markup.clr",
+      "virtualPath": "Uno.Extensions.Reactive.WinUI.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Material.WinUI.Markup.clr",
+      "virtualPath": "Uno.Material.WinUI.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Themes.WinUI.Markup.clr",
+      "virtualPath": "Uno.Themes.WinUI.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Toolkit.WinUI.Markup.clr",
+      "virtualPath": "Uno.Toolkit.WinUI.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Toolkit.WinUI.Material.clr",
+      "virtualPath": "Uno.Toolkit.WinUI.Material.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.Toolkit.WinUI.Material.Markup.clr",
+      "virtualPath": "Uno.Toolkit.WinUI.Material.Markup.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Microsoft.CSharp.clr",
+      "virtualPath": "Microsoft.CSharp.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.FluentTheme.clr",
+      "virtualPath": "Uno.UI.FluentTheme.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.FluentTheme.v1.clr",
+      "virtualPath": "Uno.UI.FluentTheme.v1.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "Uno.UI.FluentTheme.v2.clr",
+      "virtualPath": "Uno.UI.FluentTheme.v2.dll",
+      "loadRemote": true,
+      "behavior": "assembly"
+    },
+    {
+      "name": "dotnet.native.wasm",
+      "virtualPath": "dotnet.native.wasm",
+      "loadRemote": true,
+      "behavior": "dotnetwasm"
+    },
+    {
+      "name": "dotnet.native.js",
+      "virtualPath": "dotnet.native.js",
+      "loadRemote": true,
+      "behavior": "js-module-native"
+    },
+    {
+      "name": "dotnet.runtime.js",
+      "virtualPath": "dotnet.runtime.js",
+      "loadRemote": true,
+      "behavior": "js-module-runtime"
+    },
+    {
+      "name": "icudt.dat",
+      "virtualPath": "icudt.dat",
+      "loadRemote": true,
+      "behavior": "icu"
+    }
+  ]
+}
