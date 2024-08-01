@@ -1,0 +1,53 @@
+name: UnoPages App
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]   
+  workflow_dispatch:  # Allows workflow to be ran via a button
+jobs:
+  build:
+    #runs-on: ubuntu-latest
+    runs-on: windows-latest
+    name: Build
+    env:
+      config: 'Release'
+      framework: 'net8.0-browserwasm'
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 8.0.x
+    #- name: Install WASM tools
+    #  run: dotnet workload install wasm-tools
+    - name: Restore Dependencies
+      run: dotnet restore ./UnoPongWars/UnoPongWars/UnoPongWars.csproj
+    - name: Build 
+      run: dotnet build ./UnoPongWars/UnoPongWars/UnoPongWars.csproj --no-restore -f net8.0-browserwasm -c Release -p:WasmShellWebAppBasePath=./
+    - name: Publish Artifacts
+      uses: actions/upload-artifact@v1.0.0
+      if: github.event_name == 'workflow_dispatch' # Only deploy if Workflow manually ran
+      with:
+        name: pages
+        path: ./GitHub.UnoPages/GitHub.UnoPages/bin/${{env.config}}/${{env.framework}}/dist/        
+  deploy:
+    needs: build 
+    #runs-on: ubuntu-latest
+    runs-on: windows-latest
+    name: Deploy
+    if: github.event_name == 'workflow_dispatch' # Only deploy if Workflow manually ran
+    steps:
+    - name: Download artifacts
+      uses: actions/download-artifact@v2
+      with:
+        name: pages
+        path: dist        
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        target_branch: gh-pages
+        build_dir: ./dist/
+        jekyll: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
