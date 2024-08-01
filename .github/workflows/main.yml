@@ -1,4 +1,4 @@
-name: UnoPages App
+name: UnoPongWars App
 on:
   pull_request:
     branches: [ main ]
@@ -30,7 +30,7 @@ jobs:
       if: github.event_name == 'workflow_dispatch' # Only deploy if Workflow manually ran
       with:
         name: pages
-        path: ./GitHub.UnoPages/GitHub.UnoPages/bin/${{env.config}}/${{env.framework}}/dist/        
+        path: ./UnoPongWars/UnoPongWars/bin/${{env.config}}/${{env.framework}}/dist/        
   deploy:
     needs: build 
     #runs-on: ubuntu-latest
