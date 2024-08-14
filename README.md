@@ -1,5 +1,7 @@
 # Uno PongWars
 
+The code in this repo is compiled using Github Action and hosted using Github Pages.  You can see the output of his solution at [https://tsangstanley.github.io/UnoPongWars/](https://tsangstanley.github.io/UnoPongWars/)
+
 Uno PongWars is a simple minigame that draws inspiration from the [PongWars HTML/JavaScript sample](https://github.com/vnglst/pong-wars). Set in the backdrop of the eternal conflict between day and night, good and bad.
 
 ![PongWars in action](doc/assets/PongWars.gif)
